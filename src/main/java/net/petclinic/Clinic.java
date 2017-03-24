@@ -86,6 +86,7 @@ public class Clinic {
         {
             ex.printStackTrace();
         }
+        return null;
     }
 
     private int readInt()
@@ -100,7 +101,7 @@ public class Clinic {
             try{
                 double d = Double.parseDouble(readFromConsole());
                 return d;
-            }catch (Exception)
+            }catch (Exception ex)
             {
                 System.out.println("Необходимо ввессти цифру, дробная часть указывается через \".\"");
             }
