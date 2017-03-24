@@ -1,7 +1,10 @@
 package net.petclinic.history;
 
 /**
- * Created by alexey on 24.03.17.
+ * Explanation of deseases
+ *
+ * @author Wamdue
+ * @version 1.0
  */
 public class Desease
 {

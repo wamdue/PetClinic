@@ -5,8 +5,8 @@ import net.petclinic.enums.Gender;
 /**
  * Created on 24.03.17
  *
- * @Author alexey
- * @Version 1.0
+ * @author alexey
+ * @version 1.0
  */
 public class Dog extends BaseAnimal {
 

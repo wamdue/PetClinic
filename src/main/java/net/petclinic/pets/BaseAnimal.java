@@ -8,7 +8,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by alexey on 24.03.17.
+ * Base class for animals
+ *
+ * @author Wamdue
+ * @version 1.0
  */
 public abstract class BaseAnimal implements Animal {
     private int age;

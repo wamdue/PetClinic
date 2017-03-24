@@ -8,8 +8,8 @@ import java.util.List;
 /**
  * Created on 24.03.17
  *
- * @Author Alexey Gorbunov
- * @Version 1.0
+ * @author Alexey Gorbunov
+ * @version 1.0
  */
 
 public class Customer {
@@ -46,5 +46,14 @@ public class Customer {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", animals=" + animals +
+                '}';
     }
 }
