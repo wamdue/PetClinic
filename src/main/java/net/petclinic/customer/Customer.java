@@ -1,6 +1,7 @@
 package net.petclinic.customer;
 
 import net.petclinic.pets.BaseAnimal;
+import net.petclinic.utils.CustomList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.List;
 public class Customer {
     private int age;
     private String name;
-    private List<BaseAnimal> animals = new ArrayList<>();
+    private List<BaseAnimal> animals = new CustomList<>();
 
     public Customer(int age, String name, List<BaseAnimal> animals) {
         this.age = age;

@@ -6,6 +6,7 @@ import net.petclinic.pets.BaseAnimal;
 import net.petclinic.pets.Cat;
 import net.petclinic.pets.Dog;
 import net.petclinic.utils.Console;
+import net.petclinic.utils.CustomList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +19,8 @@ import java.util.List;
  */
 
 public class Clinic {
-    private List<Customer> customerList = new ArrayList<>();
-    private List<BaseAnimal> baseAnimals = new ArrayList<>();
+    private List<Customer> customerList = new CustomList<>();
+    private List<BaseAnimal> baseAnimals = new CustomList<>();
 
 
     public List<Customer> getCustomerList() {
