@@ -40,14 +40,12 @@ public class Clinic {
 
     public void work()
     {
-        try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)))
-        {
-
-
-        }catch (IOException ex)
-        {
-            ex.printStackTrace();
-        }
+            String line = "";
+            while (!line.equals("7"))
+            {
+                 mainMenu();
+                line = readFromConsole();
+            }
     }
 
     private void addAnimal(Customer customer, BaseAnimal animal)
@@ -78,6 +76,35 @@ public class Clinic {
         System.out.println("5 - Поставить диагноз");
         System.out.println("6 - История болезни");
         System.out.println("7 - Выход");
+    }
+
+    private String readFromConsole()
+    {
+        try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
+            return reader.readLine();
+        }catch (IOException ex)
+        {
+            ex.printStackTrace();
+        }
+    }
+
+    private int readInt()
+    {
+        return (int) readDouble();
+    }
+
+    private double readDouble()
+    {
+        while (true)
+        {
+            try{
+                double d = Double.parseDouble(readFromConsole());
+                return d;
+            }catch (Exception)
+            {
+                System.out.println("Необходимо ввессти цифру, дробная часть указывается через \".\"");
+            }
+        }
     }
 
 }

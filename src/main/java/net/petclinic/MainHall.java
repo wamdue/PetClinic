@@ -9,6 +9,7 @@ package net.petclinic;
 public class MainHall {
     public static void main(String[] args)
     {
-
+        Clinic clinic = new Clinic();
+        clinic.work();
     }
 }
