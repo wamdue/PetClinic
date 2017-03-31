@@ -1,6 +1,8 @@
 package net.petclinic;
 
 import net.petclinic.customer.Customer;
+import net.petclinic.emulation.Adding;
+import net.petclinic.emulation.Cure;
 import net.petclinic.enums.Gender;
 import net.petclinic.pets.BaseAnimal;
 import net.petclinic.pets.Cat;
@@ -21,6 +23,7 @@ import java.util.List;
 public class Clinic {
     private List<Customer> customerList = new CustomList<>();
     private List<BaseAnimal> baseAnimals = new CustomList<>();
+    private List<BaseAnimal> queue = new ArrayList<>();
 
 
     public List<Customer> getCustomerList() {
@@ -41,7 +44,7 @@ public class Clinic {
 
     public void work()
     {
-            String line;
+     /*       String line;
             while (true)
             {
                 mainMenu();
@@ -58,7 +61,14 @@ public class Clinic {
                     case "7" : System.out.println("Bye bye!");
                         System.exit(0);
                 }
-            }
+            }*/
+
+        Thread add = new Thread(new Adding(baseAnimals));
+        Thread cure = new Thread(new Cure(baseAnimals));
+
+
+        add.start();
+        cure.start();
     }
 
     private void findAnimal(String name) {
