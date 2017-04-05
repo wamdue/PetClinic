@@ -20,4 +20,44 @@
         <servlet-name>ClinicServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserViewServlet</servlet-name>
+        <servlet-class>net.wamdue.servlets.UserViewServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserViewServlet</servlet-name>
+        <url-pattern>/view/user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserCreateServlet</servlet-name>
+        <servlet-class>net.wamdue.servlets.UserCreateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserCreateServlet</servlet-name>
+        <url-pattern>/view/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserDeleteServlet</servlet-name>
+        <servlet-class>net.wamdue.servlets.UserDeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserDeleteServlet</servlet-name>
+        <url-pattern>/view/delete</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserEditServlet</servlet-name>
+        <servlet-class>net.wamdue.servlets.UserEditServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UserEditServlet</servlet-name>
+        <url-pattern>/view/edit</url-pattern>
+    </servlet-mapping>
 </web-app>

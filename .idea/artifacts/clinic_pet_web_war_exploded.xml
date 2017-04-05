@@ -10,7 +10,7 @@
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
-          <element id="library" level="project" name="Maven: taglib:standard:1.1.2" />
+          <element id="library" level="project" name="Maven: taglib:standard:unknown" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.12" />
           <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0.24" />
           <element id="archive" name="se-1.0-SNAPSHOT.jar">
