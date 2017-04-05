@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="778ece80-514c-495d-ae7f-6f0b611e08d6" name="Default" comment="add example of servlets, users">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/models/Base.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/models/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/models/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/servlets/UserCreateServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/servlets/UserDeleteServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/servlets/UserEditServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/store/MemoryStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/store/Storage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/store/UserCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/view/user/CreateUser.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/view/user/EditUser.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglib_standard_1_1_2.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/clinic_pet_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/clinic_pet_web_war_exploded.xml" />
+    <list default="true" id="778ece80-514c-495d-ae7f-6f0b611e08d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/clinic-pet-web.iml" afterPath="$PROJECT_DIR$/clinic-pet-web/clinic-pet-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/servlets/UserViewServlet.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/net/wamdue/servlets/UserViewServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/view/user/UserView.jsp" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/view/user/UserView.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -997,7 +979,7 @@
       <workItem from="1491073113806" duration="657000" />
       <workItem from="1491241851390" duration="6664000" />
       <workItem from="1491371822823" duration="3072000" />
-      <workItem from="1491390558381" duration="711000" />
+      <workItem from="1491390558381" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="adding vcs to maven project">
       <created>1490338109689</created>
@@ -1027,11 +1009,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491314386528</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add example of servlets, users">
+      <created>1491399937099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491399937099</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58224000" />
+    <option name="totallyTimeSpent" value="58260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1044,17 +1033,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49561754" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23851204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23839009" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
